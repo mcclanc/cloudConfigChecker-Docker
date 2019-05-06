@@ -51,4 +51,4 @@ api.add_resource(DEPLOYMENTS, '/deployments/<string:deployment_name>') # Route_1
 api.add_resource(DEPLOYMENTPUSH, '/deploymentpush') # Route_2
 
 if __name__ == '__main__':
-     app.run(host='0.0.0.0')
+     app.run(host='0.0.0.0',port=80)
