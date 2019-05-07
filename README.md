@@ -8,7 +8,7 @@ curl -H "Content-Type: application/json" -X POST -d '{"DeploymentName":"Deploy-2
 
 GET Status of Deployment:
 
-http://servername/deployments/<deployment name>
+http://servername/deployments/deploymentname
   
 
 Returns:
